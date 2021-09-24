@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>course registration</title>
+</head>
+<body>
+<fieldset >
+<h1 align=center>Registration  
+<h3 >Name: <input type=text name=name/>
+<h3 >Mail Id: <input type=text name=id/>
+<h3 >Mobile number: <input type=text name=mn/>   
+<h3 >
+Department: <select dept.=department>
+<option value=cse>choose
+ <option value=cse>Computer Science Engineering
+ <option value=ece>Electronics and Communication engineering
+ <option value=it>Information Technology
+ <option value=eee>Electrical and Electronics engineering
+ <option value=me>Mechanical engineering
+</select>
+<h3>college: <input type=text name=clg/>
+<h3>users:
+<input type=radio name=student="S"/>student
+<input type=radio name=faculty="F"/>faculty
+<input type=radio name=others="O"/>others</h3>
+<h2><b>courses</b>:
+<br><br>
+<table border=2px style="width:60%;border-collapse:collapse">
+<tr>
+<th>s.no</th>
+<th>courses</th>
+<th>duration</th>
+<th>selection</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>internet of things</td>
+<td><ul type=disc>
+<li>20 hours</li>
+<li>2weeks</li>
+</ul>
+<td><input type=checkbox name=cb/></td>
+</tr>
+<tr>
+<td>2.</td>
+<td>machine learning</td>
+<td><ul type=disc>
+<li>2 hours</li>
+<li>2 days</li>
+</ul>
+<td><input type=checkbox name=cb/></td>
+</tr>
+<tr>
+<td>3.</td>
+<td>deap learning</td>
+<td><ul type=disc>
+<li>24 hours</li>
+<li>3 weeks</li>
+</ul>
+<td><input type=checkbox name=cb/></td>
+</tr>
+<tr>
+<td>4.</td>
+<td>app development</td>
+<td><ul type=disc>
+<li>30 hours</li>
+<li>4 weeks</li>
+</ul>
+<td><input type=checkbox name=cb/></td>
+</tr>
+<tr>
+<td>5.</td>
+<td>web development</td>
+<td><ul type=disc>
+<li>20 hours</li>
+<li>2weeks</li>
+</ul>
+<td><input type=checkbox name=cb/></td>
+</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>cloud computing</td>
+<td><ul type=disc>
+<li>10 hours</li>
+<li>1 weeks</li>
+</ul>
+<td><input type=checkbox name=cb/></td>
+</td>
+</tr>
+</table><br>
+<input type=submit value=submit>
+<button type="button"onclick="alert('reload the page')">kick me!</button>
+</body>
+</html>        
+
+
+
+
